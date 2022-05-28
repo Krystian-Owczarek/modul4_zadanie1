@@ -11,7 +11,6 @@ def is_palindrom(keyword):
     keyword = keyword.casefold()
     rev_keyword = reversed(keyword)
     if list(keyword) == list(rev_keyword):
-        print(list(keyword))
         print("to palindrom")
     else:
         print("nie jest palindromem")
